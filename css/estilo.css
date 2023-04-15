@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3FBF3F;
+}
+
+ul li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.largura-limitada {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    border-bottom: 1px solid #CECECE;
+}
+
+.cabecalho p{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dono-capa {
+    min-height: 500px;
+    background-image: url('../imagens/capa.jpg');
+    background-size: cover;
+}
+
+.dono-titulos {
+    text-align: right;
+    padding: 50px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre h3, .lista h3 {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.principal, .segundario {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.sobre img {
+    width: 250px;
+    height: 180px;
+    margin: 2px;
+    border: 5px ridge #CECECE;
+}
+
+.segundario {
+    border-left: 1px solid #000000;
+    padding-left: 12px;
+}
+
+.imagem-fundo {
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.imagem-fundo h3 {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lista p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
